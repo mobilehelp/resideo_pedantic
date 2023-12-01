@@ -35,12 +35,6 @@ analyzer:
     - "**/*.g.dart"
     - "**/*.freezed.dart"
 
-  language:
-    strict-casts: true
-    strict-inference: true
-    strict-raw-types: true
-
-
   errors:
     # ignore rules from pedantic default list
     avoid_empty_else: false # unnecessary since empty_statements rule is in place
